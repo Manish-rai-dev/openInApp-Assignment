@@ -1,0 +1,33 @@
+### Overview
+This project is a Node.js application that automates email responses and labeling in Gmail. It checks for new emails, sends an auto-reply to those without previous responses, and applies customizable labels for easy organization.
+
+## Folder Structure
+
+- **app.js:** Main entry point for the application.
+- **gmail.js:** Module containing functions related to Gmail API interactions.
+- **auth.js:** Module handling authentication and credentials setup.
+- **package.json:** File containing project metadata and dependencies.
+
+## Prerequisites
+
+- Gmail API credentials from the [Google Developer Console](https://console.developers.google.com/).
+
+## Setup
+
+1. Clone the repository:
+   git clone https://github.com/Utk-yagami/Openinapp_Assignmnet.git
+
+2. npm install
+
+# Set up Gmail API credentials:
+
+Go to the Google Developer Console.
+Create a new project and enable the Gmail API.
+Create OAuth 2.0 credentials (download as credentials.json) and save in the project root.
+Run the application to generate token.json for authentication.
+
+# Start the application:
+ nodemon app.js or node app.js
+
+## Usage
+The application will automatically check for new emails, send auto-replies, and categorize emails using labels.
